@@ -1,0 +1,25 @@
+{
+    "name": "avalon/framework",
+    "description": "The Avalon framework.",
+    "tags": ["avalon", "framework"],
+    "license": "Apache-2.0",
+    "type": "metapackage",
+    "authors": [
+        {
+            "name": "Nirix"
+        }
+    ],
+    "require": {
+        "avalon/core": "^2.0",
+        "avalon/templating": "^2.0",
+        "avalon/language": "^2.0",
+        "avalon/database": "^2.0",
+        "avalon/helpers": "^2.0",
+        "avalon/hook": "^2.0"
+    },
+    "extra": {
+        "branch-alias": {
+           "dev-master": "2.0.x-dev"
+        }
+    }
+}
